@@ -1,0 +1,1 @@
+print("me gavicani tato tevzadze", 15 , "wlis")
