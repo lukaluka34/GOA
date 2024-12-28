@@ -1,0 +1,6 @@
+name = input("enter your name:")
+surname = input("enter your surname:")
+age = int(input("please enter your age:"))
+email = str(input("please enter your email:"))
+Birth_of_year = int("please enter your year:")
+birthday = int("please enter your birthday:")
