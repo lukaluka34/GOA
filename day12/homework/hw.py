@@ -1,0 +1,16 @@
+print(30>=30)
+print(10>=3)
+print(50>=20)
+print(40<=80)
+print(200>90)
+ 
+print("luka"=="luka")
+print("luka"=="luka")
+print("luka"=="luka")
+print("luka"=="luka")
+
+print(10.7<=20)
+print(5.2<=40)
+print(12.6<=60)
+print(4.1<=10)
+print(9.4<=50)
