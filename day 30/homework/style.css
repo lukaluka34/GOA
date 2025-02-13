@@ -1,0 +1,26 @@
+paren{
+    width:550px;
+    height:300px;
+    background-color: rgb(58, 141, 141);
+
+}
+
+.container{
+    margin:150px;
+
+}
+.div {
+    width:450px;
+    height:450px;
+    background-color:aqua
+    
+
+}
+
+.div2{
+    width: 450px;
+    height: 300px;
+    background-color: lightblue;
+    margin: 30px;
+
+}
