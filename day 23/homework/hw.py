@@ -1,2 +1,12 @@
-def my_info(ლუკა,ჩაგანავა,სამტრედიაში,საქართველო, პროგრამისტი):
-      sentence = f"ჩემი სახელი არის {ლუკა} {ჩაგანავა}, მე {16} წლის ვარ. ვცხოვრობ {სამტრედიაში}-ში, {საქართველო}-ში. ჩემი საყვარელი ჰობი არის {პროგრამისტი}
+def simple_calculator(num1, num2 ,operation):
+    if operation =="გამოკლება":
+        return num1-num2
+    elif operation =="დამატება":
+        return num1+num2
+    elif operation == "გამრავლება":
+        return num1*num2
+    elif operation == "გაყოფა":
+        if num2 == 0:
+            print("0ზე გაყოფა შეუძლებელია")
+            return False
+print(simple_calculator(20,0,"გაყოფა"))

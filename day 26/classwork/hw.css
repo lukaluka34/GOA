@@ -1,0 +1,29 @@
+heading1 {
+    color: green;
+    text-align:center;
+}
+
+.heading2 {
+    color:white;
+    text-transform:lowercase;
+    
+}
+.heading3 {
+    color: red;
+    text-decoration: underline;
+   
+.heading4 {
+    color: brown;
+    text-shadow: 12px 10px 10px violet;
+    
+.heading5 {
+    color: black;
+    line-height: 10;
+    
+
+}
+.heading6 {
+    word-spacing: 80px;
+    letter-spacing: 20px;
+
+}

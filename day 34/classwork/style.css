@@ -1,0 +1,27 @@
+able {
+    width: 520px;
+    text-align: center;
+    border-collapse: collapse;
+    color: white;
+}
+th, td {
+    padding: 10px;
+}
+tr:nth-child(1) {
+    background-color: black;
+}
+tr:nth-child(2) {
+    background-color:blue;
+}
+tr:nth-child(3) {
+    background-color: green;
+}
+tr:nth-child(4) {
+    background-color: yellow;
+}
+tr:nth-child(5) {
+    background-color: red;
+}
+tr:nth-child(6) {
+    background-color:skyblue;
+}
