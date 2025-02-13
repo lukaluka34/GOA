@@ -1,0 +1,19 @@
+#parent{
+   width:650px;
+   height:300px;
+   background-color:antiquewhite
+
+}
+
+.image1{
+    background-image:url(image.png);
+    background-size:cover;
+    width:400px;
+    height: 300px;
+}
+
+.text1{
+    margin-left: 500px;
+    margin-top: -250px;
+    margin-right: 700px;
+}
