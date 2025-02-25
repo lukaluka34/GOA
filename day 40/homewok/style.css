@@ -1,0 +1,17 @@
+parent2{
+    width: 250px;
+    height: 200px;
+    background-color: blue;
+    margin-left: 400px;
+    
+
+}   
+
+
+.image2{
+    background-image:url(image\ copy.png);
+    background-size:cover;
+      width:400px;
+      height: 300px;
+}    
+
