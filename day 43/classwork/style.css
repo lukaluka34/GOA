@@ -1,0 +1,9 @@
+.text1{
+    transform: 200px;
+    transition: none;
+    font-size: large;
+    position: absolute;
+    margin-top: auto;
+    inline-size: auto;
+
+}

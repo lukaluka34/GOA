@@ -1,0 +1,26 @@
+.firstbox{
+    width: 270px;
+    height: 320px;
+    background-color: coral;
+    border-bottom-right-radius: 10px;
+}
+.firstbox{
+    width: 270px;
+    height: 300px;
+    background-color: blue;
+
+}
+.firstbox2{
+    width: 270px;
+    height: 320px;
+    background-color: blue;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}

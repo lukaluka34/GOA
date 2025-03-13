@@ -1,0 +1,15 @@
+.content{ 
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+}
+
+
+
+.div{
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px;
+  float: left;
+}
