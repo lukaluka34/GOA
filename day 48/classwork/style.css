@@ -1,0 +1,39 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-gap: 10px; 
+    height: 100vh;
+}
+.header {
+    grid-column: span 4;
+    background-color: blue;
+}
+.sidebar {
+    grid-row: span 3;
+    background-color:blue;
+}
+.sect1 {
+    background-color:blue;
+}
+.sect2 {
+    background-color:blue;
+}
+.sect3 {
+    background-color: blue;
+}
+.sect4 {
+    background-color: blue;
+}
+.sect5 {
+    background-color: blue;
+}
+.nav {
+    grid-column: span 3;
+    background-color: blue;
+}
+.grid-item {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
