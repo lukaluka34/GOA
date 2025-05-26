@@ -6,6 +6,56 @@
     <title>Document</title>
 </head>
 <body>
-    
+   <script>
+function getGrade(avg) {
+  if (avg > 90 && avg < 100) {
+    return 'A';
+  } else if (avg > 70 && avg < 80) {
+    return 'B';
+  } else if (avg > 50 && avg < 65) {
+    return 'C';
+  } else if (avg > 25 && avg < 50) {
+    return 'D';
+  } else if (avg <= 25) {
+    return 'წადი ისწავლე და მერე მოდი';
+  } else {
+    return 'შეფასება არ არსებობს';
+  }
+}
+
+let subject1 = 95;
+let subject2 = 93;
+let subject3 = 91;
+let avg1 = (subject1 + subject2 + subject3) / 3;
+console.log(`საშუალო ქულა: ${avg1}, შეფასება: ${getGrade(avg1)}`);
+
+
+let subject4 = 75;
+let subject5 = 72;
+let subject6 = 74;
+let avg2 = (subject4 + subject5 + subject6) / 3;
+console.log(`საშუალო ქულა: ${avg2}, შეფასება: ${getGrade(avg2)}`);
+
+
+let subject7 = 60;
+let subject8 = 55;
+let subject9 = 52;
+let avg3 = (subject7 + subject8 + subject9) / 3;
+console.log(`საშუალო ქულა: ${avg3}, შეფასება: ${getGrade(avg3)}`);
+
+let subject10 = 40;
+let subject11 = 45;
+let subject12 = 47;
+let avg4 = (subject10 + subject11 + subject12) / 3;
+console.log(`საშუალო ქულა: ${avg4}, შეფასება: ${getGrade(avg4)}`);
+
+
+let subject13 = 10;
+let subject14 = 15;
+let subject15 = 20;
+let avg5 = (subject13 + subject14 + subject15) / 3;
+console.log(`საშუალო ქულა: ${avg5}, შეფასება: ${getGrade(avg5)}`);
+
+   </script> 
 </body>
 </html>
