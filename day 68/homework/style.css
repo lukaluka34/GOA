@@ -1,0 +1,57 @@
+/* 1) კომენტარების სახით ახსენით position-ების ყველა თვისება (static, relative, absolute, sticky, fixed).
+
+static - ჩვეულებრივად რჩება ელემენტი, პოზიცია არ იცვლება უბრალოდ
+relative -  თავის ადგილზეა უბრალოდ ოდნავ მოძრაობს, top, left, rigth, bottom
+absolute - რო გამოვიყენებთ ის ჩათვლის რო სხვა ელემენტები არ არის და სადაც გვინდა ისე გადავიტანთ ელემენტს ისე რო სხვა არ გამოძრავდეს
+fixed - ყინავს
+sticky - სანამ თავის ადგილამდე მიდის ჩვეულებრივია მერე სქროლის დროს ეწებება
+
+
+2) ივარჯიშეთ პოზიციების გამნოყენებაში და გააკეთეთ თითო მაგალითი თითო პოზიციონირების სახეობაზე.
+-- */
+.divBox {
+    position: static;
+    left: 100px;
+}
+
+.divBox {
+    position: relative;
+    left: 100px;
+}
+
+
+.divBox {
+    position: absolute;
+    left: 100px;
+    top: -100px;
+}
+
+
+.divBox {
+    position: fixed;
+    left: 100px;
+}
+
+
+.divBox {
+    position: sticky;
+    left: 100px;
+}
+
+
+
+/* 3) შექმენით ვებ-საიტი ნებისმიერი თემარტიკაზე, გამოიყენეთ აქამდე მთლიანად, განსაკუთრებით დღევანდელ გაკვეთილზე ახსნილი მასალა. */
+
+.firsTDiv {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 100px;
+    background-color: blanchedalmond;
+}
+
+
+/* 4) წაიკითხეთ შესაბამისი ინფორმაცია მხოლოდ position-ების  შესახებ:
+-- https://www.w3schools.com/css/css_positioning.asp  */
