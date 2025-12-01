@@ -1,0 +1,40 @@
+/* .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 2fr;
+    grid-gap: 30px; 
+    height: 100vh;
+}
+.header {
+    grid-column: span 4;
+    background-color: green;
+}
+.sidebar {
+    grid-row: span 3;
+    background-color: green;
+}
+.sect1 {
+    background-color: red;
+}
+.sect2 {
+    background-color: orange;
+}
+.sect3 {
+    background-color: red;
+}
+.sect4 {
+    background-color: red;
+}
+.sect5 {
+    background-color: orange;
+
+}
+.nav {
+    grid-column: span 3;
+    background-color: green;
+}
+.grid-item {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+} */
